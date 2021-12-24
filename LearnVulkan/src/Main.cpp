@@ -7,5 +7,6 @@ int main() {
 
 	while (glfwWindowShouldClose(window.GetWindow()) ==false) {
 		window.Update();
+		vulkan.DrawFrame();
 	}
 }
